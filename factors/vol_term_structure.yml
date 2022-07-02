@@ -3,9 +3,15 @@ type: Factor
 name: Vol Term Structure
 spec:
   assets:
-    - symbol: VIXM
-    - symbol: VIXY
-    - symbol: SHY
+    - type: Security
+      spec:
+        symbol: VIXM
+    - type: Security
+      spec:
+        symbol: VIXY
+    - type: Security
+      spec:
+        symbol: SHY
   policy:
     algorithm: UserInput
     rebalancingInterval: Daily

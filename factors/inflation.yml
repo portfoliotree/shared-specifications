@@ -3,9 +3,15 @@ type: Factor
 name: Inflation Factor
 spec:
   assets:
-    - symbol: TIP
-    - symbol: IEF
-    - symbol: SHY
+    - type: Security
+      spec:
+        symbol: TIP
+    - type: Security
+      spec:
+        symbol: IEF
+    - type: Security
+      spec:
+        symbol: SHY
   policy:
     algorithm: UserInput
     rebalancingInterval: Daily

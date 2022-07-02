@@ -3,9 +3,15 @@ type: Factor
 name: High Beta (Low Beta)
 spec:
   assets:
-    - symbol: SPHB
-    - symbol: SPLV
-    - symbol: SHY
+    - type: Security
+      spec:
+        symbol: SPHB
+    - type: Security
+      spec:
+        symbol: SPLV
+    - type: Security
+      spec:
+        symbol: SHY
   policy:
     algorithm: UserInput
     rebalancingInterval: Daily

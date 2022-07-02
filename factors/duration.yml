@@ -3,7 +3,9 @@ type: Factor
 name: Duration Factor
 spec:
   assets:
-    - symbol: IEF
+    - type: Security
+      spec:
+        symbol: IEF
   policy:
     algorithm: EqualWeight
     rebalancingInterval: Daily

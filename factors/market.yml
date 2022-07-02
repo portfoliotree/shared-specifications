@@ -3,7 +3,9 @@ type: Factor
 name: Market Factor
 spec:
   assets:
-    - symbol: ACWI
+    - type: Security
+      spec:
+        symbol: ACWI
   policy:
     algorithm: EqualWeight
     rebalancingInterval: Daily

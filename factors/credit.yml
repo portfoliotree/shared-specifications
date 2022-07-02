@@ -3,9 +3,15 @@ type: Factor
 name: Credit Factor
 spec:
   assets:
-    - symbol: LQD
-    - symbol: IEF
-    - symbol: SHY
+    - type: Security
+      spec:
+        symbol: LQD
+    - type: Security
+      spec:
+        symbol: IEF
+    - type: Security
+      spec:
+        symbol: SHY
   policy:
     algorithm: UserInput
     rebalancingInterval: Daily

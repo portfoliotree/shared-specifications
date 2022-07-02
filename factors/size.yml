@@ -3,9 +3,15 @@ type: Factor
 name: Size Factor
 spec:
   assets:
-    - symbol: IWM
-    - symbol: IWB
-    - symbol: SHY
+    - type: Security
+      spec:
+        symbol: IWM
+    - type: Security
+      spec:
+        symbol: IWB
+    - type: Security
+      spec:
+        symbol: SHY
   policy:
     algorithm: UserInput
     rebalancingInterval: Daily

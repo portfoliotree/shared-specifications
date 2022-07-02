@@ -3,7 +3,9 @@ type: Factor
 name: Risk Free
 spec:
   assets:
-    - symbol: SHY
+    - type: Security
+      spec:
+        symbol: SHY
   policy:
     algorithm: EqualWeight
     rebalancingInterval: Daily

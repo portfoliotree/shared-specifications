@@ -3,9 +3,15 @@ type: Factor
 name: U.S. Tilt (Non U.S.)
 spec:
   assets:
-    - symbol: IWV
-    - symbol: ACWX
-    - symbol: SHY
+    - type: Security
+      spec:
+        symbol: IWV
+    - type: Security
+      spec:
+        symbol: ACWX
+    - type: Security
+      spec:
+        symbol: SHY
   policy:
     algorithm: UserInput
     rebalancingInterval: Daily

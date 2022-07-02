@@ -3,7 +3,9 @@ type: Factor
 name: Vol Factor
 spec:
   assets:
-    - symbol: VXX
+    - type: Security
+      spec:
+        symbol: VXX
   policy:
     algorithm: EqualWeight
     rebalancingInterval: Daily

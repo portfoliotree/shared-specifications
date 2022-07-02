@@ -3,9 +3,15 @@ type: Factor
 name: Style Factor
 spec:
   assets:
-    - symbol: IWD
-    - symbol: IWF
-    - symbol: SHY
+    - type: Security
+      spec:
+        symbol: IWD
+    - type: Security
+      spec:
+        symbol: IWF
+    - type: Security
+      spec:
+        symbol: SHY
   policy:
     algorithm: UserInput
     rebalancingInterval: Daily
