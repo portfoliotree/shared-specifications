@@ -1,0 +1,10 @@
+id: 5fa83b7ea9cf999a0c632a0f
+type: Factor
+name: Duration Factor
+spec:
+  assets:
+    - symbol: IEF
+  policy:
+    algorithm: EqualWeight
+    rebalancingInterval: Daily
+    updateInterval: Daily

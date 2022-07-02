@@ -1,0 +1,17 @@
+id: 5fa786b61a7dd8bfa14e24e2
+type: Factor
+name: Size Factor
+spec:
+  assets:
+    - symbol: IWM
+    - symbol: IWB
+    - symbol: SHY
+  policy:
+    algorithm: UserInput
+    rebalancingInterval: Daily
+    updateInterval: Daily
+    spec:
+      weights:
+        - 1
+        - -1
+        - 1

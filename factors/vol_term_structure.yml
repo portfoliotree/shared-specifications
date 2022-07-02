@@ -1,0 +1,17 @@
+id: 612931101213979bad107284
+type: Factor
+name: Vol Term Structure
+spec:
+  assets:
+    - symbol: VIXM
+    - symbol: VIXY
+    - symbol: SHY
+  policy:
+    algorithm: UserInput
+    rebalancingInterval: Daily
+    updateInterval: Never
+    spec:
+      weights:
+        - 1
+        - -0.5
+        - 0.5

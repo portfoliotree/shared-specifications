@@ -1,0 +1,10 @@
+id: 5fa7871f1a7dd8bfa14e24e3
+type: Factor
+name: Market Factor
+spec:
+  assets:
+    - symbol: ACWI
+  policy:
+    algorithm: EqualWeight
+    rebalancingInterval: Daily
+    updateInterval: Never

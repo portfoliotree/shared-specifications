@@ -1,0 +1,17 @@
+id: 6118d8bbf038b26d3a0e1d11
+type: Factor
+name: Emerging (Developed) Factor
+spec:
+  assets:
+    - symbol: EEM
+    - symbol: IDEV
+    - symbol: SHY
+  policy:
+    algorithm: UserInput
+    rebalancingInterval: Daily
+    updateInterval: Never
+    spec:
+      weights:
+        - 1
+        - -1
+        - 1

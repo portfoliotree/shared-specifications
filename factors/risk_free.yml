@@ -1,0 +1,10 @@
+id: 606e8fc118182c10f26a392e
+type: Factor
+name: Risk Free
+spec:
+  assets:
+    - symbol: SHY
+  policy:
+    algorithm: EqualWeight
+    rebalancingInterval: Daily
+    updateInterval: Never

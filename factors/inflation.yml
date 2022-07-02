@@ -1,0 +1,17 @@
+id: 5fa83d04a9cf999a0c632a12
+type: Factor
+name: Inflation Factor
+spec:
+  assets:
+    - symbol: TIP
+    - symbol: IEF
+    - symbol: SHY
+  policy:
+    algorithm: UserInput
+    rebalancingInterval: Daily
+    updateInterval: Daily
+    spec:
+      weights:
+        - 1
+        - -1
+        - 1

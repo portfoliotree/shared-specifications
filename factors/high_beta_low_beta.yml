@@ -1,0 +1,17 @@
+id: 60fc8d393afeffc0cd598c77
+type: Factor
+name: High Beta (Low Beta)
+spec:
+  assets:
+    - symbol: SPHB
+    - symbol: SPLV
+    - symbol: SHY
+  policy:
+    algorithm: UserInput
+    rebalancingInterval: Daily
+    updateInterval: Never
+    spec:
+      weights:
+        - 0.5
+        - -1
+        - 1.5

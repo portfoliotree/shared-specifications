@@ -1,0 +1,17 @@
+id: 60230c34624d84c4995411cd
+type: Factor
+name: Yield Curve Factor
+spec:
+  assets:
+    - symbol: TLT
+    - symbol: IEF
+    - symbol: SHY
+  policy:
+    algorithm: UserInput
+    rebalancingInterval: Daily
+    updateInterval: Daily
+    spec:
+      weights:
+        - 2
+        - -4.5
+        - 3.5

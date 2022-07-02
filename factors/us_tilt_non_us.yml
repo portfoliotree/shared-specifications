@@ -1,0 +1,17 @@
+id: 60ae9aa4dc3fe02bbf72dc00
+type: Factor
+name: U.S. Tilt (Non U.S.)
+spec:
+  assets:
+    - symbol: IWV
+    - symbol: ACWX
+    - symbol: SHY
+  policy:
+    algorithm: UserInput
+    rebalancingInterval: Daily
+    updateInterval: Never
+    spec:
+      weights:
+        - 1
+        - -1
+        - 1

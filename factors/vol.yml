@@ -1,0 +1,10 @@
+id: 60fc8aba3afcb748da70065d
+type: Factor
+name: Vol Factor
+spec:
+  assets:
+    - symbol: VXX
+  policy:
+    algorithm: EqualWeight
+    rebalancingInterval: Daily
+    updateInterval: Never

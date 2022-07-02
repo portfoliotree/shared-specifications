@@ -1,0 +1,17 @@
+id: 5fa77cdce845242b9b33e027
+type: Factor
+name: Style Factor
+spec:
+  assets:
+    - symbol: IWD
+    - symbol: IWF
+    - symbol: SHY
+  policy:
+    algorithm: UserInput
+    rebalancingInterval: Daily
+    updateInterval: Daily
+    spec:
+      weights:
+        - 1
+        - -1
+        - 1
